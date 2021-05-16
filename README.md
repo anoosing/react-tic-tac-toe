@@ -1,6 +1,15 @@
+# Create repository
+through 
+    bash enter  => git init (in source code path)
+                => git status
+                => git add . or (git add `filepath`)
+    git account => create new repository with suitable name
+    remote add  => git remote add origin `https://github.com/anoosing/react-tic-tac-toe.git`
+    push code   => git push -u origin master
+
 # Create project
 npx create-react-app react-tictac
- 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
